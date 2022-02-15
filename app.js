@@ -34,7 +34,7 @@ MongoClient.connect('mongodb+srv://healthtracker:AhzwGrC3ntKFKEb1@cluster0.ag96i
                 app.use(express.json());
 
         app.get('/', function(req,res){
-            res.send("Easy Interior Application");
+            res.send("Esusu Server");
         });
         await app.post('/register', (req, res) => {
             users.find({email: req.body.email.toLowerCase()}).count().then(
