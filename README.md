@@ -21,3 +21,6 @@ The following endpoints are made available on the API.
 | Invite Member to Group  | /groups/invite' | POST | {"name": "group_name","username": "user/admin","member": "user_to_invite"} | {"status": xxx,"inviteId": "*****"} | Passkey to be passed in authorization header, InviteId to be passed in ` Join Group by Invitation` UseCase | True
 | Join Group  | /groups/join | POST | { "name": "group_name","username":"user"} | {"status": xxx} | Passkey to be passed in authorization header. | True
 | Join Group by Invitation | /groups/invitations/join | POST | {"inviteId": "fbcddddf-1393-491c-b48c-a35428543e31"} | {"status": xxx} | Passkey to be passed in authorization header. | True
+
+# Test API
+Goto `https://esusu-server.herokuapp.com`
